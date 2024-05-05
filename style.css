@@ -31,7 +31,6 @@ body {
     flex-direction: column;
     gap: 2rem;
     background-color: var(--clr-white);
-
 }
 
 header {
@@ -127,12 +126,23 @@ main {
     height: 100%;
     aspect-ratio: 5 / 6;
     display: grid;
-    grid-template-rows: 3fr 2fr;
+    grid-template-rows: 1fr;
     box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
 }
 
-.card-image {
-    background: url(images/header-image.jpg);
+.card-image-restaurant {
+    background: url(images/restaurant-thumbnail.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.card-image-library {
+    background: url(images/library-thumbnail.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .card-title {
@@ -214,6 +224,11 @@ h1, h2, h3 {
     background-size: cover;
     background-position: center;
 }
+
+a {
+    text-decoration: none;
+    color: white;
+  }
 
 .contacts .links {
     display: flex;
