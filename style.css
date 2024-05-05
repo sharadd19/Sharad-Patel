@@ -132,7 +132,7 @@ main {
 }
 
 .card-image {
-    background-color: var(--clr-accent);
+    background: url(images/header-image.jpg);
 }
 
 .card-title {
