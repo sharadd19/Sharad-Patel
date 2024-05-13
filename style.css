@@ -145,6 +145,14 @@ main {
     background-repeat: no-repeat;
 }
 
+.card-image-weather-api {
+    background: url(images/weather-api.png);
+    background-size: cover;
+    aspect-ratio: 1/1;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .card-title {
     display: flex;
     justify-content: space-between;
