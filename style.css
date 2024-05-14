@@ -147,10 +147,10 @@ main {
 
 .card-image-weather-api {
     background: url(images/weather-api.png);
-    background-size: cover;
-    aspect-ratio: 1/1;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+    aspect-ratio: 1/1;
 }
 
 .card-title {
