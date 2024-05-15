@@ -153,6 +153,14 @@ main {
     aspect-ratio: 1/1;
 }
 
+.card-image-tic-tac-toe {
+    background: url(images/tic-tac-toe.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    aspect-ratio: 1/1;
+}
+
 .card-title {
     display: flex;
     justify-content: space-between;
