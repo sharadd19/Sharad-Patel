@@ -182,7 +182,7 @@ main {
 
 .project-links {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 0.5rem;
 }
 
@@ -202,13 +202,18 @@ footer {
 }
 
 button {
-    background-color: var(--clr-accent);
+    background-color: black;
     color: white;
     border-radius: 5px;
     border: none;
     padding-left: 5px;
     padding-right: 5px;
     font-family: "Catamaran"
+}
+
+
+button:hover{
+    background-color: var(--clr-accent);
 }
 
 .contacts p {
@@ -246,6 +251,15 @@ a {
     text-decoration: none;
     color: white;
   }
+
+h3 > a {
+    color: black;
+    text-decoration: underline;
+}
+
+h3 > a:hover {
+    color: var(--clr-accent);
+}
 
 .contacts .links {
     display: flex;
