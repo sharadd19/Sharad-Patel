@@ -130,10 +130,10 @@ main {
     box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
 }
 
-.card-image-restaurant {
-    background: url(images/restaurant-thumbnail.png);
-    background-size: contain;
-    background-position: center;
+.card-image-my-anime-list {
+    background: url(images/my-anime-list.png);
+    background-size: cover;
+    background-position: top;
     background-repeat: no-repeat;
 
 }
@@ -183,6 +183,12 @@ main {
 .project-links {
     display: grid;
     grid-template-columns: 1fr;
+    gap: 0.5rem;
+}
+
+.my-anime-list-project-links{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 0.5rem;
 }
 
