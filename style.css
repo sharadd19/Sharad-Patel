@@ -138,9 +138,9 @@ main {
 
 }
 
-.card-image-library {
-    background: url(images/library-thumbnail.png);
-    background-size: contain;
+.card-image-avatar-memory-card {
+    background: url(images/avatar-memory-card.png);
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
