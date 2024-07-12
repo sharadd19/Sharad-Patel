@@ -5,7 +5,8 @@ cvButton.addEventListener("click", () => {
   window.open("Sharad Patel CV.pdf", "_blank");
 });
 
-async function getProfile() {
+// Using google sheets as a CMS - slow when loading page 
+/* async function getProfile() {
   try {
     const url =
       "https://script.google.com/macros/s/AKfycbxGXPKima8v6GeroNLD1Hp3z811UIn1tWG7nV6UB3kJd7k5wPQBIwe8A-hq0YyYDS4s/exec";
@@ -25,4 +26,4 @@ async function createProfile() {
   profileParagraph.textContent = profile.data;
 }
 
-createProfile();
+createProfile(); */
