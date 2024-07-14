@@ -117,7 +117,7 @@ main {
 
 .projects {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 2rem;
 }
 
@@ -138,6 +138,14 @@ main {
 
 }
 
+.card-image-brain-blog {
+    background: url(images/in-development.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
 .card-image-avatar-memory-card {
     background: url(images/avatar-memory-card.png);
     background-size: cover;
@@ -145,8 +153,8 @@ main {
     background-repeat: no-repeat;
 }
 
-.card-image-weather-api {
-    background: url(images/weather-api.png);
+.card-image-shopping-cart {
+    background: url(images/SATO.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
