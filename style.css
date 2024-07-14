@@ -155,7 +155,7 @@ main {
 
 .card-image-shopping-cart {
     background: url(images/SATO.png);
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     aspect-ratio: 1/1;
