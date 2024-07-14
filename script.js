@@ -3,7 +3,6 @@ document.title = "Sharad Patel";
 const cvButton = document.querySelector(".my-cv");
 cvButton.addEventListener("click", () => {
   window.open("cv.html", "_blank");
-  //window.open("SharadPatelCV.pdf", "_blank");
 });
 
 // Using google sheets as a CMS - slow when loading page 
