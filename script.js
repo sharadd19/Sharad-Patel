@@ -2,7 +2,7 @@ document.title = "Sharad Patel";
 // Click on download CV button to download my CV
 const cvButton = document.querySelector(".my-cv");
 cvButton.addEventListener("click", () => {
-  window.open("Sharad Patel CV.pdf", "_blank");
+  window.open("cv.html", "_blank");
 });
 
 // Using google sheets as a CMS - slow when loading page 
